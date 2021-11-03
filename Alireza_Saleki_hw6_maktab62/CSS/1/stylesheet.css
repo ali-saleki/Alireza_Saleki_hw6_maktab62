@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.green {
+  width: 990px;
+  height: 150px;
+  position: relative;
+  top: 25px;
+  display: flex;
+  background-color: #b6ffc7;
+  margin: auto;
+}
+
+.green p {
+  font-size: 16px;
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 50px;
+  justify-content: center;
+}
+
+.yellow {
+  width: 305px;
+  height: 400px;
+  background-color: #f9ffb8;
+  margin-right: 20px;
+}
+
+.yellow p {
+  font-size: 16px;
+  position: relative;
+  top: 35px;
+  left: 25px;
+}
+
+.card {
+  position: relative;
+  top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card1 {
+  width: 205px;
+  height: 50px;
+  background-color: whitesmoke;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.card2 {
+  width: 205px;
+  height: 50px;
+  background-color: whitesmoke;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.card3 {
+  width: 205px;
+  height: 50px;
+  background-color: whitesmoke;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.card4 {
+  width: 205px;
+  height: 50px;
+  background-color: whitesmoke;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.middle {
+  width: 305px;
+  height: 400px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* justify-content: space-between; */
+}
+
+.orange {
+  background-color: #fae3b9;
+  height: 205px;
+  margin-bottom: 20px;
+}
+
+.orange p {
+  font-size: 16px;
+  position: relative;
+  top: 35px;
+  left: 25px;
+}
+
+.blue {
+  background-color: #b7d2f4;
+  height: 205px;
+  margin-top: 20px;
+}
+
+.blue p {
+  font-size: 16px;
+  position: relative;
+  top: 35px;
+  left: 25px;
+}
+
+.red {
+  background-color: #fcacb9;
+  width: 305px;
+  height: 400px;
+  margin-left: 20px;
+}
+
+.red p {
+  font-size: 16px;
+  position: relative;
+  top: 35px;
+  left: 25px;
+}
+
+.red-card {
+  position: relative;
+  top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.red-card1 {
+  width: 205px;
+  height: 50px;
+  background-color: whitesmoke;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.red-card2 {
+  width: 205px;
+  height: 50px;
+  background-color: whitesmoke;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.red-card3 {
+  width: 205px;
+  height: 50px;
+  background-color: whitesmoke;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.red-card4 {
+  width: 205px;
+  height: 50px;
+  background-color: whitesmoke;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}

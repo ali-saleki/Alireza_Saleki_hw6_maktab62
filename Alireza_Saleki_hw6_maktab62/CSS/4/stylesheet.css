@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  width: 1024px;
+  height: 600px;
+  background-image: url("./iran-at-night.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  /* position: absolute; */
+  width: 325px;
+  height: 230px;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  border-radius: 3px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  margin-top: 15px;
+}
+
+.title p {
+  font-size: 14px;
+}
+
+.input {
+  height: 25px;
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border-color: white;
+  border-style: solid;
+  border-width: thin;
+}
+
+.input i{
+    /* margin-top: 1px; */
+    width: 30px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6C757D;
+    border-radius: 2px;
+    border-style: unset;
+    color: white;
+}
+
+.input input {
+  width: 100%;
+  border-style: unset;
+  text-align: right;
+}
+
+.button {
+  height: 25px;
+  width: 325px;
+  display: flex;
+  justify-content: center;
+}
+
+.button button {
+  background-color: #27a143;
+  color: white;
+  width: 270px;
+  height: 25px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: unset;
+}
+
+.footer {
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.register {
+    color: #0052be;
+    cursor: pointer;
+}

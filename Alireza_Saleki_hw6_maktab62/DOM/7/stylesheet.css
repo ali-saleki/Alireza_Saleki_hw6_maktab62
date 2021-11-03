@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 500px;
+}
+
+input {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 3px;
+  width: 340px;
+  height: 30px;
+  margin: 15px;
+  text-align: right;
+}
+
+button[type="submit"] {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #aa0000;
+    border-style: unset;
+    cursor: pointer;
+}
+
+input.has-error {
+  border-color: red;
+}
+
+input.has-error input::placeholder {
+  color: red;
+}
